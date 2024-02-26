@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="t_ticTacToe.css">
+
+    
+    <!-- Link CSS files for each game -->
+<link rel="stylesheet" type="text/css" href="hangman.css">
+<link rel="stylesheet" type="text/css" href="guessTheNumber.css">
+<link rel="stylesheet" type="text/css" href="memoryGame.css">
+<link rel="stylesheet" type="text/css" href="rockPaperScissors.css">
+<link rel="stylesheet" type="text/css" href="simonGame.css">
+
+
+</head>
+<body>
+    <div class="menu" id="menu">
+        <button class="menu-btn" data-game="tictactoe">Tic Tac Toe</button>
+        <button class="menu-btn" data-game="hangman">Hangman</button>
+        <button class="menu-btn" data-game="guessTheNumber">Guess the Number</button>
+        <button class="menu-btn" data-game="memoryGame">Memory Game</button>
+        <button class="menu-btn" data-game="rockPaperScissors">Rock-Paper-Scissors</button>
+        <button class="menu-btn" data-game="simonGame">Simon Game</button>
+    </div>
+    <div id="gameContainer"></div>
+    <button class="back-btn" id="backButton">Back to Menu</button>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <script src="ticTacToe.js"></script>
+
+    <!-- Link JavaScript files for each game -->
+<script src="hangman.js"></script>
+<script src="guessTheNumber.js"></script>
+<script src="memoryGame.js"></script>
+<script src="rockPaperScissors.js"></script>
+<script src="simonGame.js"></script>
+
+</body>
+</html>
